@@ -1,0 +1,6 @@
+﻿@host=https://localhost:7130
+@id=7d259e40-c965-4974-af6e-a12213d3201f
+
+GET {{host}}/breakfasts/{{id}}
+
+### end of request

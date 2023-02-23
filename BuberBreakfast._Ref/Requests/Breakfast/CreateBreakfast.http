@@ -1,0 +1,24 @@
+﻿@host=https://localhost:7130
+
+POST {{host}}/breakfasts
+Content-Type: application/json
+
+{
+    "Name": "Vegan Sunshine",
+    "Description": "Vegan everything! Join us for a healthy breakfast...",
+    "startDateTime": "2023-02-23T08:00:00",
+    "EndDateTime": "2023-02-23T11:00:00",
+    "Savory": [
+        "Oatmeal",
+        "Avocado Toast",
+        "Omelette",
+        "Salad"
+    ],
+    "Sweet": [
+        "Cookie"
+    ]
+}
+
+###
+
+GET {{host}}/Breakfasts/7d259e40-c965-4974-af6e-a12213d3202f
